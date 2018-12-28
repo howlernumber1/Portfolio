@@ -11,19 +11,5 @@ const HomePage = () => (
   </div>
 );
 
-// class Resume extends React.Component {
-//
-// render () {
-//
-// return (  <Resume></Resume>
-//
-//
-// )
-// }
-//
-//
-// }
-
-
 
 export default HomePage;

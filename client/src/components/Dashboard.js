@@ -20,9 +20,9 @@ import { mainListItems } from './listItems';
 import HomePage from './HomePage.js'
 import About from './About.js'
 import Portfolio from './Portfolio.js'
-import Resume
-from './Resume.js'
+import Resume from './Resume.js'
 import Contact from './Contact.js'
+import Footer from './Footer.js'
 
 const drawerWidth = 240;
 
@@ -192,7 +192,7 @@ class Dashboard extends React.Component {
           open={this.state.open}
         >
           <div className={classes.toolbarIcon}>
-            
+
             <IconButton onClick={this.handleDrawerClose}>
               <ChevronLeftIcon />
             </IconButton>

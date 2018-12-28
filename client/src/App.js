@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Dashboard from './components/Dashboard.js'
 import { BrowserRouter, Route } from 'react-router-dom';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import  Footer from './components/Footer.js'
 import green from '@material-ui/core/colors/green';
 import teal from '@material-ui/core/colors/teal';
 // import HomePage from './components/HomePage.js'
@@ -29,6 +30,7 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Route component={Dashboard}/>
+            <Footer></Footer>
           </div>
         </BrowserRouter>
       </MuiThemeProvider>
